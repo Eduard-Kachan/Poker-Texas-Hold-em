@@ -1,5 +1,4 @@
 # Poker - Texas Holdem
-======================
 
 ## About
 Create a server and play Poker with friends. Single room can hold up to people. Server is created using Node.js and the front end in run on Pixi.js
