@@ -1,0 +1,35 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        title Poker
+        meta(name="description", content="Play Poker")
+        meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui")
+        link(rel="stylesheet" type="text/css" href="assets/styles/play.css")
+    body
+        .wrapper
+            .playerCards
+                span.title Your Cards:
+                img.cardOne(src='')
+                img.cardTwo(src='')
+            .actions
+                span.title Action:
+                span.waiting Waiting...
+                button.call.hide <span class = 'underline'>C</span>all
+                button.check.hide C<span class = 'underline'>h</span>eck
+                .bet.hide
+                    input
+                    button <span class = 'underline'>B</span>et
+                .raise.hide
+                    input
+                    button <span class = 'underline'>R</span>aise
+                button.allIn.hide <span class = 'underline'>A</span>ll In
+                button.fold.hide <span class = 'underline'>F</span>old
+
+
+    script(type="text/javascript", src="assets/scripts/jquery-2.1.1.min.js")
+    script(type="text/javascript", src="assets/scripts/socket.io-1.1.0.js")
+    script(type="text/javascript", src="assets/scripts/pixi.js")
+    script(type="text/javascript", src="assets/scripts/game.js")
+                                           

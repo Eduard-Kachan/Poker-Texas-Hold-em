@@ -1,0 +1,448 @@
+.table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 275px;
+  border-radius: 275px;
+  border: 2px solid #000;
+}
+.players {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  transform: translate(50%, 50%);
+}
+.player {
+  position: absolute;
+  display: block;
+  width: 175px;
+  height: 40px;
+  border: 2px solid #000;
+  transform: translate(-50%, -50%);
+  background: #fff;
+}
+.player:nth-child(1) {
+  top: -50%;
+  left: -18%;
+}
+.player:nth-child(2) {
+  top: -50%;
+  left: 18%;
+}
+.player:nth-child(3) {
+  top: -25%;
+  left: 50%;
+}
+.player:nth-child(4) {
+  top: 0;
+  left: 55%;
+}
+.player:nth-child(5) {
+  top: 25%;
+  left: 50%;
+}
+.player:nth-child(6) {
+  top: 50%;
+  left: 18%;
+}
+.player:nth-child(7) {
+  top: 50%;
+  left: -18%;
+}
+.player:nth-child(8) {
+  top: 25%;
+  left: -50%;
+}
+.player:nth-child(9) {
+  top: 0;
+  left: -55%;
+}
+.player:nth-child(10) {
+  top: -25%;
+  left: -50%;
+}
+.you {
+  display: block;
+  position: absolute;
+  left: 83px;
+  background: #fff;
+  border: 1px solid;
+  padding: 2px;
+  top: -17px;
+}
+.money {
+  position: absolute;
+  left: 96px;
+  top: 12px;
+}
+.money::before {
+  content: '$ ';
+}
+.card {
+  width: 29px;
+  height: 41px;
+  top: -7px;
+  position: absolute;
+  background: url("/assets/images/pokerCards.jpg");
+  background-size: 456px;
+  border: 1px solid;
+  left: 5px;
+}
+.cardTwo {
+  left: 43px;
+}
+.communityCards {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 67px;
+  left: 181px;
+}
+.communityCard {
+  display: block;
+  width: 40px;
+  height: 56px;
+  border: 1px solid;
+  margin-right: 7px;
+  float: left;
+  background: url("/assets/images/pokerCards.jpg");
+  background-size: 622px;
+}
+.actions {
+  position: absolute;
+  top: 160px;
+  left: 182px;
+}
+.actions button {
+  padding: 10px;
+}
+.actions input {
+  width: 57px;
+  padding: 8px;
+}
+.player .back {
+  background-position: -419px -99px;
+}
+.player .twoOfDiamonds {
+  background-position: -7px -11px;
+}
+.player .threeOfDiamonds {
+  background-position: -38px -11px;
+}
+.player .fourOfDiamonds {
+  background-position: -70px -11px;
+}
+.player .fiveOfDiamonds {
+  background-position: -102px -11px;
+}
+.player .sixOfDiamonds {
+  background-position: -134px -11px;
+}
+.player .sevenOfDiamonds {
+  background-position: -166px -11px;
+}
+.player .eightOfDiamonds {
+  background-position: -198px -11px;
+}
+.player .nineOfDiamonds {
+  background-position: -229px -11px;
+}
+.player .tenOfDiamonds {
+  background-position: -261px -11px;
+}
+.player .jackOfDiamonds {
+  background-position: -292px -11px;
+}
+.player .queenOfDiamonds {
+  background-position: -324px -11px;
+}
+.player .kingOfDiamonds {
+  background-position: -356px -11px;
+}
+.player .aceOfDiamonds {
+  background-position: -387px -11px;
+}
+.player .twoOfClubs {
+  background-position: -7px -55px;
+}
+.player .threeOfClubs {
+  background-position: -38px -55px;
+}
+.player .fourOfClubs {
+  background-position: -70px -55px;
+}
+.player .fiveOfClubs {
+  background-position: -102px -55px;
+}
+.player .sixOfClubs {
+  background-position: -134px -55px;
+}
+.player .sevenOfClubs {
+  background-position: -166px -55px;
+}
+.player .eightOfClubs {
+  background-position: -198px -55px;
+}
+.player .nineOfClubs {
+  background-position: -229px -55px;
+}
+.player .tenOfClubs {
+  background-position: -261px -55px;
+}
+.player .jackOfClubs {
+  background-position: -292px -55px;
+}
+.player .queenOfClubs {
+  background-position: -324px -55px;
+}
+.player .kingOfClubs {
+  background-position: -356px -55px;
+}
+.player .aceOfClubs {
+  background-position: -387px -55px;
+}
+.player .twoOfHearts {
+  background-position: -7px -99px;
+}
+.player .threeOfHearts {
+  background-position: -38px -99px;
+}
+.player .fourOfHearts {
+  background-position: -70px -99px;
+}
+.player .fiveOfHearts {
+  background-position: -102px -99px;
+}
+.player .sixOfHearts {
+  background-position: -134px -99px;
+}
+.player .sevenOfHearts {
+  background-position: -166px -99px;
+}
+.player .eightOfHearts {
+  background-position: -198px -99px;
+}
+.player .nineOfHearts {
+  background-position: -229px -99px;
+}
+.player .tenOfHearts {
+  background-position: -261px -99px;
+}
+.player .jackOfHearts {
+  background-position: -292px -99px;
+}
+.player .queenOfHearts {
+  background-position: -324px -99px;
+}
+.player .kingOfHearts {
+  background-position: -356px -99px;
+}
+.player .aceOfHearts {
+  background-position: -387px -99px;
+}
+.player .twoOfSpades {
+  background-position: -7px -144px;
+}
+.player .threeOfSpades {
+  background-position: -38px -144px;
+}
+.player .fourOfSpades {
+  background-position: -70px -144px;
+}
+.player .fiveOfSpades {
+  background-position: -102px -144px;
+}
+.player .sixOfSpades {
+  background-position: -134px -144px;
+}
+.player .sevenOfSpades {
+  background-position: -166px -144px;
+}
+.player .eightOfSpades {
+  background-position: -198px -144px;
+}
+.player .nineOfSpades {
+  background-position: -229px -144px;
+}
+.player .tenOfSpades {
+  background-position: -261px -144px;
+}
+.player .jackOfSpades {
+  background-position: -292px -144px;
+}
+.player .queenOfSpades {
+  background-position: -324px -144px;
+}
+.player .kingOfSpades {
+  background-position: -356px -144px;
+}
+.player .aceOfSpades {
+  background-position: -387px -144px;
+}
+.communityCards .back {
+  background-position: -572px -136px;
+}
+.communityCards .twoOfDiamonds {
+  background-position: -10px -15px;
+}
+.communityCards .threeOfDiamonds {
+  background-position: -53px -15px;
+}
+.communityCards .fourOfDiamonds {
+  background-position: -96px -15px;
+}
+.communityCards .fiveOfDiamonds {
+  background-position: -139px -15px;
+}
+.communityCards .sixOfDiamonds {
+  background-position: -182px -15px;
+}
+.communityCards .sevenOfDiamonds {
+  background-position: -226px -15px;
+}
+.communityCards .eightOfDiamonds {
+  background-position: -269px -15px;
+}
+.communityCards .nineOfDiamonds {
+  background-position: -312px -15px;
+}
+.communityCards .tenOfDiamonds {
+  background-position: -356px -15px;
+}
+.communityCards .jackOfDiamonds {
+  background-position: -399px -15px;
+}
+.communityCards .queenOfDiamonds {
+  background-position: -442px -15px;
+}
+.communityCards .kingOfDiamonds {
+  background-position: -485px -15px;
+}
+.communityCards .aceOfDiamonds {
+  background-position: -528px -15px;
+}
+.communityCards .twoOfClubs {
+  background-position: -10px -76px;
+}
+.communityCards .threeOfClubs {
+  background-position: -53px -76px;
+}
+.communityCards .fourOfClubs {
+  background-position: -96px -76px;
+}
+.communityCards .fiveOfClubs {
+  background-position: -139px -76px;
+}
+.communityCards .sixOfClubs {
+  background-position: -182px -76px;
+}
+.communityCards .sevenOfClubs {
+  background-position: -226px -76px;
+}
+.communityCards .eightOfClubs {
+  background-position: -269px -76px;
+}
+.communityCards .nineOfClubs {
+  background-position: -312px -76px;
+}
+.communityCards .tenOfClubs {
+  background-position: -356px -76px;
+}
+.communityCards .jackOfClubs {
+  background-position: -399px -76px;
+}
+.communityCards .queenOfClubs {
+  background-position: -442px -76px;
+}
+.communityCards .kingOfClubs {
+  background-position: -485px -76px;
+}
+.communityCards .aceOfClubs {
+  background-position: -528px -76px;
+}
+.communityCards .twoOfHearts {
+  background-position: -10px -136px;
+}
+.communityCards .threeOfHearts {
+  background-position: -53px -136px;
+}
+.communityCards .fourOfHearts {
+  background-position: -96px -136px;
+}
+.communityCards .fiveOfHearts {
+  background-position: -139px -136px;
+}
+.communityCards .sixOfHearts {
+  background-position: -182px -136px;
+}
+.communityCards .sevenOfHearts {
+  background-position: -226px -136px;
+}
+.communityCards .eightOfHearts {
+  background-position: -269px -136px;
+}
+.communityCards .nineOfHearts {
+  background-position: -312px -136px;
+}
+.communityCards .tenOfHearts {
+  background-position: -356px -136px;
+}
+.communityCards .jackOfHearts {
+  background-position: -399px -136px;
+}
+.communityCards .queenOfHearts {
+  background-position: -442px -136px;
+}
+.communityCards .kingOfHearts {
+  background-position: -485px -136px;
+}
+.communityCards .aceOfHearts {
+  background-position: -528px -136px;
+}
+.communityCards .twoOfSpades {
+  background-position: -10px -197px;
+}
+.communityCards .threeOfSpades {
+  background-position: -53px -197px;
+}
+.communityCards .fourOfSpades {
+  background-position: -96px -197px;
+}
+.communityCards .fiveOfSpades {
+  background-position: -139px -197px;
+}
+.communityCards .sixOfSpades {
+  background-position: -182px -197px;
+}
+.communityCards .sevenOfSpades {
+  background-position: -226px -197px;
+}
+.communityCards .eightOfSpades {
+  background-position: -269px -197px;
+}
+.communityCards .nineOfSpades {
+  background-position: -312px -197px;
+}
+.communityCards .tenOfSpades {
+  background-position: -356px -197px;
+}
+.communityCards .jackOfSpades {
+  background-position: -399px -197px;
+}
+.communityCards .queenOfSpades {
+  background-position: -442px -197px;
+}
+.communityCards .kingOfSpades {
+  background-position: -485px -197px;
+}
+.communityCards .aceOfSpades {
+  background-position: -528px -197px;
+}
+.moneyPile {
+  position: absolute;
+  top: 134px;
+  left: 183px;
+}

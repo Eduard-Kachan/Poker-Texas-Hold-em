@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Poker</title>
+    <meta name="description" content="Play Poker">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+    <link rel="stylesheet" type="text/css" href="assets/styles/play.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="playerCards"><span class="title">Your Cards:</span><img src="" class="cardOne"><img src="" class="cardTwo"></div>
+      <div class="actions"><span class="title">Action:</span><span class="waiting">Waiting...</span>
+        <button class="call hide"><span class = 'underline'>C</span>all</button>
+        <button class="check hide">C<span class = 'underline'>h</span>eck</button>
+        <div class="bet hide">
+          <input>
+          <button><span class = 'underline'>B</span>et</button>
+        </div>
+        <div class="raise hide">
+          <input>
+          <button><span class = 'underline'>R</span>aise</button>
+        </div>
+        <button class="allIn hide"><span class = 'underline'>A</span>ll In</button>
+        <button class="fold hide"><span class = 'underline'>F</span>old</button>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="assets/scripts/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="assets/scripts/socket.io-1.1.0.js"></script>
+  <script type="text/javascript" src="assets/scripts/pixi.js"></script>
+  <script type="text/javascript" src="assets/scripts/game.js"></script>
+</html>

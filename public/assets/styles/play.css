@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #95e6e0;
+}
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  height: 1px;
+}
+.table {
+  font-size: 13px;
+  float: left;
+  list-style: none;
+  height: 500px;
+  width: 400px;
+}
+.table li {
+  width: 180px;
+  height: 73px;
+  background: #709d28;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  position: relative;
+  color: #f4ffff;
+  box-shadow: 0 0 6px #808080;
+}
+.table li .name {
+  font-size: 20px;
+}
+.table li .symbol {
+  margin-bottom: 5px;
+}
+.table li .marker {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  top: 0;
+  right: 0;
+  background: #481633;
+  border-radius: 50%;
+}
+.table li .action {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #f4ffff;
+  color: #010101;
+  padding: 3px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.community,
+.playerCards,
+.actions {
+  float: left;
+  width: 290px;
+  background: #709d28;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 0 6px #808080;
+  color: #f4ffff;
+}
+.community .moneyPot {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.community .communityCards ul li {
+  list-style-type: none;
+}
+.playerCards {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  width: 150px;
+  height: 107px;
+}
+.playerCards .cardOne {
+  margin-left: 26px;
+}
+.playerCards .cardTwo {
+  margin-left: 13px;
+}
+.actions {
+  position: absolute;
+  top: 118px;
+  right: 0;
+  margin: 0;
+  width: 150px;
+}
+.actions button {
+  display: block;
+  padding: 5px;
+  width: 150px;
+  height: 30px;
+  border-radius: 0;
+}
+.actions input {
+  width: 96px;
+  height: 26px;
+  border-radius: 0;
+  font-size: 15px;
+}
+.actions .underline {
+  text-decoration: underline;
+}
+.actions .bet,
+.actions .raise {
+  overflow: auto;
+}
+.actions .bet input,
+.actions .raise input,
+.actions .bet button,
+.actions .raise button {
+  float: left;
+}
+.actions .bet button,
+.actions .raise button {
+  width: 50px;
+}
+.hide {
+  display: none !important;
+}
+.title {
+  transform: translate(-5px, -5px);
+  padding: 5px;
+  width: 150px;
+  display: block;
+  color: #010101;
+  background: #f4ffff;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+}

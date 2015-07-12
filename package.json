@@ -1,0 +1,26 @@
+{
+  "name": "MessPoker",
+  "version": "0.1.2",
+  "description": "A sample Node.js app using Express 4",
+  "author": "Eduard Kachan",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "socket.io": "^1.2.1",
+    "underscore": "1.8.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-imagemin": "*",
+    "gulp-jade": "*",
+    "gulp-rename": "*",
+    "gulp-stylus": "*",
+    "gulp-svgo": "*"
+  }
+}

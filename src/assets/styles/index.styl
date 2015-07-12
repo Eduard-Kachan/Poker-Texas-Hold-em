@@ -1,0 +1,340 @@
+.table
+  position absolute
+  top 50%
+  left 50%
+  transform translate(-50%,-50%)
+  width 600px
+  height 275px
+  border-radius 275px
+  border 2px solid #000
+
+.players
+  width 100%
+  margin 0
+  padding 0
+  height 100%
+  transform translate(50%,50%)
+
+.player
+  position absolute
+  display block
+  width 175px
+  height 40px
+  border 2px solid #000
+  transform translate(-50%,-50%)
+  background white
+//top 2 cards
+.player:nth-child(1)
+  top -50%
+  left -18%
+.player:nth-child(2)
+  top -50%
+  left 18%;
+//right 3 cards
+.player:nth-child(3)
+  top -25%
+  left 50%
+.player:nth-child(4)
+  top 0
+  left 55%
+.player:nth-child(5)
+  top 25%
+  left 50%
+//bottom 2 cards
+.player:nth-child(6)
+  top 50%
+  left 18%
+.player:nth-child(7)
+  top 50%
+  left -18%
+//left 3 cards
+.player:nth-child(8)
+  top 25%
+  left -50%
+.player:nth-child(9)
+  top 0
+  left -55%
+.player:nth-child(10)
+  top -25%
+  left -50%
+.you
+  display block
+  position absolute
+  left 83px
+  background white
+  border 1px solid
+  padding 2px
+  top -17px
+.money
+  position absolute
+  left 96px
+  top 12px
+.money::before
+  content '$ '
+.card
+  width 29px
+  height 41px
+  top -7px
+  position absolute
+  background url("/assets/images/pokerCards.jpg")
+  background-size 456px
+  border 1px solid
+  left 5px
+.cardTwo
+  left 43px
+.communityCards
+  position absolute
+  margin 0
+  padding 0
+  top 67px
+  left 181px
+.communityCard
+  display block
+  width 40px
+  height 56px
+  border 1px solid
+  margin-right 7px
+  float left
+  background url("/assets/images/pokerCards.jpg")
+  background-size 622px
+
+.actions
+  position absolute
+  top 160px
+  left 182px
+  button
+    padding 10px
+  input
+    width 57px
+    padding 8px
+
+.player
+  .back
+    background-position -419px -99px
+
+  .twoOfDiamonds
+    background-position -7px -11px
+  .threeOfDiamonds
+    background-position -38px -11px
+  .fourOfDiamonds
+    background-position -70px -11px
+  .fiveOfDiamonds
+    background-position -102px -11px
+  .sixOfDiamonds
+    background-position -134px -11px
+  .sevenOfDiamonds
+    background-position -166px -11px
+  .eightOfDiamonds
+    background-position -198px -11px
+  .nineOfDiamonds
+    background-position -229px -11px
+  .tenOfDiamonds
+    background-position -261px -11px
+  .jackOfDiamonds
+    background-position -292px -11px
+  .queenOfDiamonds
+    background-position -324px -11px
+  .kingOfDiamonds
+    background-position -356px -11px
+  .aceOfDiamonds
+    background-position -387px -11px
+
+  .twoOfClubs
+    background-position -7px -55px
+  .threeOfClubs
+    background-position -38px -55px
+  .fourOfClubs
+    background-position -70px -55px
+  .fiveOfClubs
+    background-position -102px -55px
+  .sixOfClubs
+    background-position -134px -55px
+  .sevenOfClubs
+    background-position -166px -55px
+  .eightOfClubs
+    background-position -198px -55px
+  .nineOfClubs
+    background-position -229px -55px
+  .tenOfClubs
+    background-position -261px -55px
+  .jackOfClubs
+    background-position -292px -55px
+  .queenOfClubs
+    background-position -324px -55px
+  .kingOfClubs
+    background-position -356px -55px
+  .aceOfClubs
+    background-position -387px -55px
+
+  .twoOfHearts
+    background-position -7px -99px
+  .threeOfHearts
+    background-position -38px -99px
+  .fourOfHearts
+    background-position -70px -99px
+  .fiveOfHearts
+    background-position -102px -99px
+  .sixOfHearts
+    background-position -134px -99px
+  .sevenOfHearts
+    background-position -166px -99px
+  .eightOfHearts
+    background-position -198px -99px
+  .nineOfHearts
+    background-position -229px -99px
+  .tenOfHearts
+    background-position -261px -99px
+  .jackOfHearts
+    background-position -292px -99px
+  .queenOfHearts
+    background-position -324px -99px
+  .kingOfHearts
+    background-position -356px -99px
+  .aceOfHearts
+    background-position -387px -99px
+
+  .twoOfSpades
+    background-position -7px -144px
+  .threeOfSpades
+    background-position -38px -144px
+  .fourOfSpades
+    background-position -70px -144px
+  .fiveOfSpades
+    background-position -102px -144px
+  .sixOfSpades
+    background-position -134px -144px
+  .sevenOfSpades
+    background-position -166px -144px
+  .eightOfSpades
+    background-position -198px -144px
+  .nineOfSpades
+    background-position -229px -144px
+  .tenOfSpades
+    background-position -261px -144px
+  .jackOfSpades
+    background-position -292px -144px
+  .queenOfSpades
+    background-position -324px -144px
+  .kingOfSpades
+    background-position -356px -144px
+  .aceOfSpades
+    background-position -387px -144px
+
+.communityCards
+  .back
+    background-position -572px -136px
+
+  .twoOfDiamonds
+    background-position -10px -15px
+  .threeOfDiamonds
+    background-position -53px -15px
+  .fourOfDiamonds
+    background-position -96px -15px
+  .fiveOfDiamonds
+    background-position -139px -15px
+  .sixOfDiamonds
+    background-position -182px -15px
+  .sevenOfDiamonds
+    background-position -226px -15px
+  .eightOfDiamonds
+    background-position -269px -15px
+  .nineOfDiamonds
+    background-position -312px -15px
+  .tenOfDiamonds
+    background-position -356px -15px
+  .jackOfDiamonds
+    background-position -399px -15px
+  .queenOfDiamonds
+    background-position -442px -15px
+  .kingOfDiamonds
+    background-position -485px -15px
+  .aceOfDiamonds
+    background-position -528px -15px
+
+  .twoOfClubs
+    background-position -10px -76px
+  .threeOfClubs
+    background-position -53px -76px
+  .fourOfClubs
+    background-position -96px -76px
+  .fiveOfClubs
+    background-position -139px -76px
+  .sixOfClubs
+    background-position -182px -76px
+  .sevenOfClubs
+    background-position -226px -76px
+  .eightOfClubs
+    background-position -269px -76px
+  .nineOfClubs
+    background-position -312px -76px
+  .tenOfClubs
+    background-position -356px -76px
+  .jackOfClubs
+    background-position -399px -76px
+  .queenOfClubs
+    background-position -442px -76px
+  .kingOfClubs
+    background-position -485px -76px
+  .aceOfClubs
+    background-position -528px -76px
+
+  .twoOfHearts
+    background-position -10px -136px
+  .threeOfHearts
+    background-position -53px -136px
+  .fourOfHearts
+    background-position -96px -136px
+  .fiveOfHearts
+    background-position -139px -136px
+  .sixOfHearts
+    background-position -182px -136px
+  .sevenOfHearts
+    background-position -226px -136px
+  .eightOfHearts
+    background-position -269px -136px
+  .nineOfHearts
+    background-position -312px -136px
+  .tenOfHearts
+    background-position -356px -136px
+  .jackOfHearts
+    background-position -399px -136px
+  .queenOfHearts
+    background-position -442px -136px
+  .kingOfHearts
+    background-position -485px -136px
+  .aceOfHearts
+    background-position -528px -136px
+
+  .twoOfSpades
+    background-position -10px -197px
+  .threeOfSpades
+    background-position -53px -197px
+  .fourOfSpades
+    background-position -96px -197px
+  .fiveOfSpades
+    background-position -139px -197px
+  .sixOfSpades
+    background-position -182px -197px
+  .sevenOfSpades
+    background-position -226px -197px
+  .eightOfSpades
+    background-position -269px -197px
+  .nineOfSpades
+    background-position -312px -197px
+  .tenOfSpades
+    background-position -356px -197px
+  .jackOfSpades
+    background-position -399px -197px
+  .queenOfSpades
+    background-position -442px -197px
+  .kingOfSpades
+    background-position -485px -197px
+  .aceOfSpades
+    background-position -528px -197px
+
+
+.moneyPile
+  position absolute
+  top 134px
+  left 183px
+
